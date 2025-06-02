@@ -22,7 +22,7 @@ function FormularioCadastro() {
 
   const cadastrarUsuario = async () => {
     try {
-      const response = await axios.post("http://localhost:8080/usuarios", {
+      const response = await axios.post("https://revisao1-deploy.onrender.com/usuarios", {
         nome,
         sexo,
         idade,
